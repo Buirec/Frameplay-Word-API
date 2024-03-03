@@ -27,7 +27,7 @@ func digitSum(num int) int {
 		output = digitSum(output)
 	}
 
-	return output
+	return output - 1
 }
 
 func getWord(c *gin.Context) {
